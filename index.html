@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>BeyondROM</title>
+    <meta charset="UTF-8">
+    <title>BeyondROM – Performance Refined</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="bg-particles"></div>
+
 <nav>
-    <div class="logo">BeyondROM</div>
-    <div>
+    <div class="nav-left">
+        <div class="nav-logo"></div>
+        <div class="nav-title">BEYONDROM</div>
+    </div>
+    <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="devices.html">Devices</a>
@@ -16,13 +22,67 @@
     </div>
 </nav>
 
-<div class="page">
-    <div class="glass">
-        <h1>Welcome to BeyondROM</h1>
-        <p>The most advanced custom ROM experience with HyperOS‑style animations and ultra‑clean UI.</p>
-        <button onclick="location.href='devices.html'">View Supported Devices</button>
-    </div>
-</div>
+<main class="page">
+    <section class="hero">
+        <div class="hero-badge">
+            <div class="hero-badge-dot"></div>
+            EXYNOS & SNAPDRAGON GALAXY DEVICES
+        </div>
+
+        <h1 class="hero-title">
+            Performance <span>Refined.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+            BeyondROM is a work‑in‑progress custom ROM project focused on clean UI, aggressive debloat,
+            and smooth, modern motion inspired by HyperOS and One UI.
+        </p>
+
+        <p class="hero-subline">
+            Based on <span>One UI / AOSP‑tuned builds</span> with a focus on stability and speed.
+        </p>
+
+        <div class="hero-actions">
+            <button class="btn btn-primary">
+                <div class="btn-dot"></div>
+                DOWNLOAD (COMING SOON)
+            </button>
+
+            <button class="btn btn-secondary" onclick="location.href='about.html'">
+                INSTALLATION WIKI
+            </button>
+        </div>
+
+        <div class="hero-side">
+            <div class="hero-tag">True debloat, no nonsense.</div>
+            <div class="hero-tag">Galaxy S10e / S10+ / Note 20 / S20.</div>
+            <div class="hero-tag">Designed for real‑world daily use.</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="card">
+            <h2 class="section-title">Get started</h2>
+            <p>
+                This site will host installation guides, changelogs, and download links for supported devices.
+                For now, you can explore the <a href="devices.html">Devices</a> page to see which Galaxy models
+                BeyondROM is targeting first.
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                © BeyondROM. All Rights Reserved.<br>
+                Inspired by modern ROM projects and community‑driven development.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    Site concept by BeyondROM. Hosted via GitHub Pages.<br>
+    Project influenced by custom ROM communities on XDA and Telegram.
+</footer>
 
 </body>
 </html>
